@@ -26,4 +26,11 @@ public class UserController {
         System.out.println("I am AAA");
         return "index";
     }
+
+
+    public void m1() {
+        System.out.println("===");
+        System.out.println("ppppppppp");
+    }
+
 }
