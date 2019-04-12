@@ -20,6 +20,8 @@ public class UserController {
     public String test(HttpSession session) {
         List<User> users = userService.queryAll();
         session.setAttribute("users", users);
+
+
         return "index";
     }
 }
