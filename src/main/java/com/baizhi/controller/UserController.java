@@ -21,7 +21,7 @@ public class UserController {
         List<User> users = userService.queryAll();
         session.setAttribute("users", users);
 
-
+        //this is first uodate on github
         return "index";
     }
 }
