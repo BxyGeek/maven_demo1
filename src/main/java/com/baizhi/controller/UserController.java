@@ -23,6 +23,7 @@ public class UserController {
 
         //this is first uodate on github
         System.out.println("I am bxy");
+        System.out.println("I am AAA");
         return "index";
     }
 }
