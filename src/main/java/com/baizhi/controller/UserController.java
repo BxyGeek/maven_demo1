@@ -22,6 +22,7 @@ public class UserController {
         session.setAttribute("users", users);
 
         //this is first uodate on github
+        System.out.println("I am bxy");
         return "index";
     }
 }
