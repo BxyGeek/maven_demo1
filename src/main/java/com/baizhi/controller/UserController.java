@@ -36,4 +36,7 @@ public class UserController {
         System.out.println("马哲文到此一游");
     }
 
+    public void m2() {
+        System.out.println("Hello World!");
+    }
 }
